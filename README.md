@@ -5,7 +5,7 @@
 </p>
 
 <p>Repositório para o curso de Testes com Ruby. Curso ministrado pela plataforma OneBit Code</br>
-  https://onebitcode.com/course/minicurso-de-testes/</p>
+  https://www.youtube.com/playlist?list=PLdDT8if5attGc3fgFsFe5cvV9MwlVFNLW</p>
 
 
 
