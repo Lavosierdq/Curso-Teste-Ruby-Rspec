@@ -1,3 +1,7 @@
+=begin
+  crie uma calculadora e o arquivo de testes  
+=end
+
 class Calculator
   def num1=(num1)
     @num1 = num1
@@ -23,7 +27,7 @@ class Calculator
     sub = @num1-@num2
   end
 
-  def produto
+  def multiplicacao
     multi = @num1 * @num2
   end
 
@@ -32,7 +36,7 @@ class Calculator
   end
 end
 
-
+=begin
 
 numero = Calculator.new
 numero.num1 = 10
@@ -42,4 +46,5 @@ puts numero.soma
 puts numero.subtracao
 puts numero.produto
 puts numero.divisao
+=end
 
