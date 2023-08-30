@@ -7,21 +7,19 @@ class Parity
     @parity = parity
   end
 
-  def parity 
-    @parity
-  end
-
   def verificador
-    if @parity%2 == 0
-      "esse numero é par #{@parity}"
+    if @parity.class == String
+      "isso é uma String"
+    elsif @parity%2 == 0 
+      "esse numero é par"
     else
-      "esse numero é impar #{@parity}"
+      "esse numero é impar"
     end
   end
 end
 
 testeNumero = Parity.new
 
-testeNumero.parity = 11
+testeNumero.parity = 'lavosi'
 
-puts " o valor #{testeNumero.verificador}"
+puts "#{testeNumero.verificador}"
