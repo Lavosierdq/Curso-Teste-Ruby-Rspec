@@ -31,7 +31,7 @@ class TemperatureConverter
 end
 
 conversor = TemperatureConverter.new
-conversor.metodo_grau = 'fire'
+conversor.metodo_grau = 'celcius'
 conversor.celcius = 50
-conversor.fireheint = 100
+conversor.fireheint = 50
 puts " a temperatura convetida %0.1f" % [conversor.conversor]
