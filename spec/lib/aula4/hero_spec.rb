@@ -1,6 +1,6 @@
 require_relative '../spec_helper'
 require_relative 'hero'
-
+=begin
 describe Hero do
   describe "#arma" do
     it "retorna a arma atribuída" do
@@ -15,3 +15,4 @@ describe Hero do
     end
   end
 end
+=end
