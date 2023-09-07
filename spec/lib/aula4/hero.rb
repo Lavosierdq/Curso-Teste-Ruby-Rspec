@@ -8,6 +8,14 @@ class Hero
     @arma
   end
 
+  def hp=(hp)
+    @hp = hp
+  end
+
+  def hp
+    @hp
+  end
+
 end
 
 
