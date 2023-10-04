@@ -11,7 +11,7 @@
 ## definindo um metodo para garantir o teste
 # "#{self.kind} #{self.nickname} ##{self.level}"
 
-## criando uma validação do level
+## criando uma validação do level no arquivo app/model/user.rb
 #validates :level,numericality:{greater_than: 0 , less_than_or_equal_to:99}
 
 ## resultado final do teste...
