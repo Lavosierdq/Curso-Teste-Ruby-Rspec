@@ -1,30 +1,20 @@
-## Aula 8  preparando base para o teste
-# iniciar os testes no arquivo spec/models/user_spec.rb
+#inicinaodo projeto ruby in rails
+## rails new nome_do projeto
 
+#configurando rspec dentro de uma gem File
 =begin
-   require 'rails_helper'
-   RSpec.describe User,type: :model do
-    it "it invalid if the level is not between 1 and 99"
-    it "returns the correct hero title"
+   group:development,:test do
+     gem 'rspec-rails','~>3.8'
    end
 =end
+# executar o comando bundle install  para o bundle adicionar a gem do rspec
+## bundle install
 
-## rodando o teste
-# bundle exec rspec spec/models/user_spec.rb
-#
-## criando o primeiro teste
-=begin
-   it "is invalid if the level is not between 1 and 99"do
-     expect(User.create(nickname:'Chronos',kind: :wizard,level:100)).to_not be_valid
-   end
-=end
+# criar um banco de dados para o rails
+## rails db:create
 
-## substituindoo o each por novov código
-# it "is invaled if the level is not between 1 and 99" do
-# expect (User.create(nickname 'Cronos',kind: :wizard, level:100)).to_not be_valid
+#instale o rspec
+## rails generate rspec:install
 
-## criando a validação correta para o teste
-# it "returns the correct hero title" do
-# user = User.create(nickname: 'Chronos',kind: :wizard, level:1)
-# expect(user.title).to eq('wizard Chronos #1')
-# end
+# rodando testes
+## bundle exec rspec
