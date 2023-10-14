@@ -1,4 +1,4 @@
-##Aula sobre a Gem Factory Bot
+##Aula 14 sobre a Gem Factory Bot
 #utilizando a gem factory bot para criar um teste
 =begin
    FactoryBot.define do
@@ -32,7 +32,7 @@
 
 ## dentro do aquivo spec/factories/user.rb
 =begin
-   Factor7yBot.define do
+   FactoryBot.define do
     factory :user do
       nickname{FFaker::Lorem.word}
       level{FFaker::Fandom.rand(1..99)}

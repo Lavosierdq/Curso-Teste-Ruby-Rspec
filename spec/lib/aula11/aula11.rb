@@ -1,5 +1,6 @@
 ## Incrementando model  user
 #rails g migration add_name_kind_level_to_user nickname:string kind:integer level:integer
+#aruivos criado na pasta db/migrate/
 
 
 ##utilizando o comando rails db:migrate que serve para reproduzir
