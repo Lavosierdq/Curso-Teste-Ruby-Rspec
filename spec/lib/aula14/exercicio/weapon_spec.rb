@@ -27,6 +27,11 @@ RSpec.describe Weapon, type: :model do
 
   expect(weapon).to_not be_valid
   end
+
+  it "Teste utilizando Factory bot" do
+    weapon = build(:weapon,level: FFaker::Random.rand(100..999))
+    expect(weapon).to_not be_valid
+  end
 end
 
   
