@@ -10,16 +10,16 @@
 
 
 
- - [01 - Introdução]
- - [02 - Para que Testar Software]
- - [03 - Tipos de Teste]
- - [04 - TDD]
- - [05 - Conhecendo o Rspec]
- - [06 - Aviso!]
+ - [01 - Introdução](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721643)
+ - [02 - Para que Testar Software](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721650)
+ - [03 - Tipos de Teste](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721659)
+ - [04 - TDD](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721670)
+ - [05 - Conhecendo o Rspec](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721684)
+ - [06 - Aviso!](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721690)
  - [07 - Exercitando o TDD com Rspec](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721696)
- - [08 - Exercitando o TDD com Rspec:Parte-2]
- - [09 - Teste em 4 Fases]
- - [10 - BDD]
+ - [08 - Exercitando o TDD com Rspec:Parte-2](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721702)
+ - [09 - Teste em 4 Fases](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721707)
+ - [10 - BDD](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721715)
  # Modulo 2 : Rspec
  - [11 - Context e .rspec](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721725)
  - [12 - Subject](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721733)
