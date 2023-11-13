@@ -34,7 +34,7 @@
  - [21 - Matchers Predicados](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721797)
  - [22 - Matchets de Erros](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721817)
  - [23 - Um pouco mais sobre o Describe](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721826)
- - [24 - Matchets oara Arrays](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721838)
+ - [24 - Matchets para Arrays](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721838)
  - [25 - Matchets para Rangers](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721847)
  - [26 - On-Liner Sintaxer(Subject)](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721861)
  - [27 - Composição de Expectativas](https://github.com/users/Lavosierdq/projects/3/views/1?pane=issue&itemId=30721875)
