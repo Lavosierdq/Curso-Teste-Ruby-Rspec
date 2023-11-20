@@ -1,27 +1,24 @@
-## Incrementando model  user
-#rails g migration add_name_kind_level_to_user nickname:string kind:integer level:integer
-#aruivos criado na pasta db/migrate/
+#aula sobre Context
+require_relative '../lib/calculadora'
 
+describe Calculadora do
+  context "#sum" do
+    it 'com numeros positivos' do
+      calc = Calculadora.new
+      result = calc.sum(7,5)
+      expect(result).to eq(12)
+    end
 
-##utilizando o comando rails db:migrate que serve para reproduzir
-# a criação das colunas no banco de dados.
-
-## utilizando um enum dentro do arquivo app/model/user.rb
-# enum kind:[:kight,:wizard]
-
-## definindo um metodo para garantir o teste
-# "#{self.kind} #{self.nickname} ##{self.level}"
-
-## criando uma validação do level no arquivo app/model/user.rb
-#validates :level,numericality:{greater_than: 0 , less_than_or_equal_to:99}
-
-## resultado final do teste...
-=begin
-   class User < ApplicationRecord
-     enum kind:[:knight,wizard]
-     validates :level,numericality:{greater_than:0, less_than_or_equal_to:99}
-     def title
-       "#{self.kind} #{self.nickname} ##{self.level}"
-     end
-   end
-=end
+    specify 'com numeros negativos' do
+      calc  = Calculadora.new
+      result = calc.sum(-7,-5)
+      expect(result).to eq(-12)
+    end
+   
+    xit 'com numeros negativos e positivos' do
+      calc = Calculator.new
+      result = cal.sum(-4,3)
+      expect(result).to eq(-1)
+    end
+  end
+end
