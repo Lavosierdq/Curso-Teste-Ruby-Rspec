@@ -20,6 +20,6 @@ end
 
 testeNumero = Parity.new
 
-testeNumero.parity = 'lavosi'
+testeNumero.parity = 1
 
 puts "#{testeNumero.verificador}"
