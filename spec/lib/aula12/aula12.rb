@@ -1,6 +1,5 @@
 #aula sobre subject
-require_relative '../lib/calculadora'
-
+require_relative 'calculadora'
 describe Calculadora do
   context "#sum" do
     it 'com numeros positivos' do
