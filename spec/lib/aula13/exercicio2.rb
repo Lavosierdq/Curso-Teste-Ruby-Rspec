@@ -36,11 +36,9 @@ describe " multiplicacao" do
       expect(x).to eq(x.sort)
     end
 
-    it 'se pertence a um metodo size' do
+    it 'se pertence a um metodo' do
       x = 4
       expect(x).to respond_to(:size)
     end
-
-    it
   end
 end
