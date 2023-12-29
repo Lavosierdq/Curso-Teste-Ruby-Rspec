@@ -1,4 +1,3 @@
-
 #aula matchers de igualdade
 describe 'matchets de comparacao' do
   it '#equal testa objetos' do
