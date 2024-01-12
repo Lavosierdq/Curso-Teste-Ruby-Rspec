@@ -1,5 +1,5 @@
 #matchers de comparacao
-
+require_relative '../../../spec_helper'
 describe " matchers  verdadeiro ou falso" do
 
   it 'be true' do

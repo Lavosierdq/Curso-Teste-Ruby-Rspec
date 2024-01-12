@@ -1,5 +1,5 @@
 #exercicios.
-
+require_relative '../../../spec_helper'
 describe 'matcher de comparacao' do
   context 'testa objetos:' do
     it '#equal' do
@@ -9,11 +9,11 @@ describe 'matcher de comparacao' do
       expect(x).to equal(x)
     end
 
-    it '#be' do
+    it '#be testa objetos' do
       y = 'ruby'
       x = 'ruby'
       expect(x).not_to be(y)
-      expect(x).to be(y)
+      expect(x).to be(x)
     end
   end
 
