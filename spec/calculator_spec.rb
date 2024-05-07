@@ -1,4 +1,3 @@
-
 require_relative 'lib/aula7/calculator'
 #subject faz uma referencia da classe
 

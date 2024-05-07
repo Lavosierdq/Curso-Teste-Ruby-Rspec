@@ -1,4 +1,5 @@
-require 'calculator'
+require 'aula7/calculator'
+
 describe Calculator do
     context 'sum' do #-> referencia a metodo de instância 
       #calc  =  Calculator.new
