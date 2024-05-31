@@ -1,10 +1,11 @@
 #aula describe interno e externo
-require 'aula14Class'
+require_relative 'aula14Class'
+require_relative '../../spec/spec_helper.rb'
 
-describe String do
+RSpec.describe String do # pode utilizar o RSpec. describe também para realizar testes
   describe StringNaoVazia do # o describe interno sempre terá predominancia.
     it "não está vazia" do
-      expect(subject).to eq('não sou vazio')
+      expect(subject).to eq('nao sou vazio')
     end
   end
 end

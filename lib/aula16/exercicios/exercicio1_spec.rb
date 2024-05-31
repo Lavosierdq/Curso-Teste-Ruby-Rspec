@@ -1,5 +1,5 @@
 #exercicios.
-require_relative '../../../spec_helper'
+require_relative '../../../spec/spec_helper'
 describe 'matcher de comparacao' do
   context 'testa objetos:' do
     it '#equal' do

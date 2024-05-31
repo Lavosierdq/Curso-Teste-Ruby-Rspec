@@ -1,6 +1,6 @@
 require 'aula7/calculator'
 
-describe Calculator do
+describe Calculator,"sobre a calculadora" do
     context 'sum' do #-> referencia a metodo de instância 
       #calc  =  Calculator.new
       it "Testar metodo para numeros positivos" do

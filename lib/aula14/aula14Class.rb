@@ -1,5 +1,5 @@
-class Aula_14 < String
+class StringNaoVazia < String
   def initialize
-    self << "nao sou vazio"
+    self << 'nao sou vazio'
   end
 end
