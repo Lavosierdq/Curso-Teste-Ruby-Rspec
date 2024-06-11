@@ -1,6 +1,6 @@
 require_relative '../../../spec/spec_helper'
 
-describe "matcher de comparacao" do
+describe "matcher de igualdade" do
   context "texta objetos:"  do
     it "#equal" do
       y = 'ruby'
