@@ -1,5 +1,5 @@
 #exercicio para teste de atributos
-require_relative '../../../spec_helper'
+require_relative '../../../spec/spec_helper'
 require_relative 'pessoa.rb'
 
 describe 'testar atributos' do 
